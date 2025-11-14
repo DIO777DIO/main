@@ -1,107 +1,21 @@
 body {
-    font-family: sans-serif;
-}
-header {
-    background-color:black ;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s;
     text-align: center;
-}
-naw {
-    background-color: antiquewhite;
-    text-align: center;
+    padding: 50px;
 }
 
-body {
-    font-family: sans-serif;
-    background-color: black;
+.container {
+    max-width: 600px;
+    margin: auto;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-    background-color: #B12A1F;
-}
-nav a {
-    color: #B12A1F;
-    border-radius: 10px;
-    background-color: black ;
-    margin: 10px;
-    padding: 9px;
-    text-decoration: none;
-}
-.vidilena {
-    background-color: white;
-    color: darkred;
-    font-family: cursive;
-}
-main {
-    background-color: #B12A1F;
-    color: white;
-    text-align: center;
-    font-family: initial;
-}
-main p:hover {
-    color: black;
-    transition:6s  linear ;
-}
-main h1 {
-    background-color: #B12A1F;
-    color: white;
-    text-align: center;
-    font-family: initial;
-}
-nav a:hover {
-    transition:3s linear;
-    padding: 3px;
-    color: white;
-}
-.vidilena:hover {
-    background-color: white;
-    transition:3s linear;
-    padding: 3px;
-    color: black;
-}
 h1 {
-    text-align: center;
+    color: #333;
 }
-.power {
-    background-color: darkred;
-    color: white;
-}
-h2 {
-    background-color: darkred;
-}
-h2 a:hover {
-    margin: 50px;
-    transform: scale(3);
-    transition: 2s;
-}
-.intelect {
-    background-color: darkblue;
-    color: white;
-}
-footer {
-    background-color: gray ;
-    text-align: center;
-}
-footer a {
-    text-decoration: none;
-    color: black;
-}
-.spritnost {
-    background-color: green;
-}
-.universalnost {
-    background-image: linear-gradient(red,blue,green);
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
